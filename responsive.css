@@ -1,0 +1,146 @@
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .second-class {
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+  .second-class {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .third-class {
+    padding: 0.5rem 1rem;
+  }
+}
+
+
+@media(min-width: 768px) and (max-width:991px) {
+  .second-class {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+  }
+
+  .exe-class {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+  }
+
+  .second-class {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+
+  .third-class {
+    padding: 0 1rem 1rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .html {
+    font-size: 20px;
+  }
+
+  .navbar-terms {
+    font-size: 15px;
+  }
+
+  .main-animation {
+    flex-direction: column;
+  }
+
+
+
+  .head .img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .horline {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width:860px) {
+  .navbar {
+    opacity: 1;
+    top: 0;
+    padding: 10px 25px;
+  }
+
+  .navbar-list {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 6px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .navbar-list .navbar-terms {
+    color: black;
+  }
+
+  .navbar.scrolled .bars {
+    background: black;
+  }
+
+  .navbar-list.active {
+    left: 0;
+  }
+
+  .navbar-list.active li {
+    margin: 10px 0;
+  }
+
+  .navbar-list.active .scroll-up {
+    display: block;
+  }
+
+  .navbar-list.active li:last-child {
+    width: 150%;
+    background: dodgerblue;
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+
+  .navbar-list.active li:last-child i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width:767px) {
+  .center-section-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .middle-section-mobile {
+    padding-bottom: 2rem;
+  }
+
+  .third-class {
+    padding: 0 1rem 1rem 1rem;
+  }
+}
+
+@media(max-width:575px) {
+  .middle-section-mobile {
+    width: 400px;
+    height: 310px;
+    margin: 0 auto;
+  }
+}
